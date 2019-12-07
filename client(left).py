@@ -140,16 +140,6 @@ RIGHT_PAD = c.create_line(WIDTH-RIGHT_PAD_W/2, 0, WIDTH-RIGHT_PAD_W/2,
                           RIGHT_PAD_H, width=RIGHT_PAD_W, fill="yellow")
 
 
-p_1_text = c.create_text(WIDTH-WIDTH/6, PAD_H/4,
-                         text=PLAYER_1_SCORE,
-                         font="Arial 20",
-                         fill="white")
- 
-p_2_text = c.create_text(WIDTH/6, PAD_H/4,
-                          text=PLAYER_2_SCORE,
-                          font="Arial 20",
-                          fill="white")
-
 
 BALL_X_CHANGE = 20
 
